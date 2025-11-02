@@ -5,24 +5,6 @@ Personal repository for tracking my **Colab notebooks** while following ETH Zür
 > This repo intentionally contains **tutorial notebooks only** (no `src/` and no lecture notebooks).  
 > Each notebook is Colab-friendly and starts with a one-click “Open in Colab” badge.
 
----
-
-## Repository layout
-
-.
-├── README.md
-├── requirements.txt          # optional (for local runs)
-├── .gitignore
-├── LICENSE                   # MIT (update holder name before publishing)
-└── notebooks/
-└── tutorials/
-├── 2025-09-22_function_approx.ipynb
-├── 2025-09-25_cv_cnn.ipynb
-├── 2025-10-06_pinn_training.ipynb
-├── 2025-10-13_fno.ipynb
-└── 2025-10-27_cno.ipynb
-
----
 
 ## Open in Colab
 
@@ -39,7 +21,6 @@ https://colab.research.google.com/github/USERNAME/REPO/blob/main/notebooks/tutor
 
 Tip: after your first push, search & replace USERNAME/REPO across the repo to set your path once.
 
-⸻
 
 Tutorials mapping
 	•	2025-09-22 — Function Approximation with PyTorch
@@ -56,7 +37,6 @@ notebooks/tutorials/2025-10-27_cno.ipynb
 Add more tutorials by following the same naming convention:
 YYYY-MM-DD_topic.ipynb under notebooks/tutorials/.
 
-⸻
 
 How to use
 
@@ -71,7 +51,6 @@ pip install -r requirements.txt
 jupyter notebook    # or: jupyter lab
 
 
-⸻
 
 Notebook template
 
@@ -82,21 +61,19 @@ Each tutorial notebook starts with:
 
 Keep cells short and composable; prefer saving large figures or artifacts outside of git (they’re ignored by .gitignore).
 
-⸻
 
 Versioning & hygiene
 	•	Don’t commit large data or model files; keep them on external storage or releases.
 	•	Commit early and often; write informative messages.
 	•	If you need to share outputs, place images in a /docs folder or attach to issues/PRs.
 
-⸻
+
 
 License
 
 MIT — see LICENSE￼.
 Replace the placeholder copyright holder with your name.
 
-⸻
 
 Acknowledgements
 
